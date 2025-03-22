@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background: linear-gradient(180deg, rgb(204, 208, 211) 0% , rgba(2, 31, 218, 0.945) 100%);
+    /* background-image: "https://imgs.search.brave.com/jEL5GLjllyEGGPSJ0YQ3t69wrRTHQbxTSIYwqGgfjcM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcwMTU2/MDkucG5n";
+     */
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+     flex-direction: column;
+     color:rgb(30, 70, 101);
+     font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 10vw;
+  font-style: normal;
+}
+h1{
+    margin-top: 4%;
+    font-size: 68px;
+}
+
+#button{
+    width: 165px;
+    height: 50px;
+    background-color:ghostwhite;
+    color: rgb(66, 78, 109);
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 15px 15px rgb(26, 26, 26);
+}
+
+#weathercontent, #weather{
+    font-size: 40px;
+    line-height: 38px;
+}
+
+#weathercontent, #img{
+    margin-top: 10px;
+    /* width: 1000px;
+    height: 500px; */
+
+}
